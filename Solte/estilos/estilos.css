@@ -274,7 +274,9 @@ html {
   }
 
   /*FOOTER*/
-  .contenedorFooter {}
+  .contenedorFooter {
+    position: relative;
+  }
 
   .footer,
   article,
