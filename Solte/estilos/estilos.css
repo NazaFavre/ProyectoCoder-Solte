@@ -19,6 +19,9 @@ html {
   /*HEADER*/
   .logo {
     position: relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .headerLogo {
@@ -38,7 +41,7 @@ html {
   /*INDEX*/
   /*MAIN PAGINA HOME*/
   .tituloprincipal {
-    position: absolute;
+    position: relative;
 
   }
 
@@ -462,16 +465,15 @@ html {
 
   /*CONTACTO*/
   /*FORMULARIO*/
+  .contenedorFormulario{
+    position: relative;
+    margin: 15px;
+    font-size: 2rem;
+    text-align: center;
+  }
   .tituloFormulario,
   h2 {
     margin: 15px;
-    position: relative;
-    left: 650px;
-  }
-
-  form {
-    margin: 15px;
-    font-size: 2rem;
     position: relative;
     left: 650px;
   }
@@ -479,7 +481,7 @@ html {
 
 
 /*media queries DESKTOP*/
-@media screen and (max-width: 1024PX) {
+@media screen and (max-width: 1440PX) {
 
   /*BODY PARA TODAS LAS PAGINAS*/
   .body {
