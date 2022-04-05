@@ -9,17 +9,14 @@ html {
 
 
 /*media queries MOBILE*/
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 480px) {
   /*BODY PARA TODAS LAS PAGINAS*/
   .body {
-    background-image: linear-gradient(to top,lightpink,white,lightpink);
+    background-image: linear-gradient(to top, lightpink, white, lightpink);
   }
 
   /*HEADER*/
   .logo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
   }
 
   .headerLogo {
@@ -34,50 +31,96 @@ html {
     margin: 2px;
     font-size: 7rem;
     text-decoration: underline overline;
-    display: flex;
-    justify-content:flex-end;
   }
 
-  /*INDEX*/ /*MAIN PAGINA HOME*/
+  /*INDEX*/
+  /*MAIN PAGINA HOME*/
   .tituloprincipal {
-    display: flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    
+    position: absolute;
+
   }
 
-  /*NAVEGACION*/ /*DECORACION NAVEGACION*/
+  /*NAVEGACION*/
+  /*DECORACION NAVEGACION*/
   /*LETRAS NAVEGACION*/
-  .navegacion, a, li{
-    display: flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    font-size:3rem;
+  .navegacion,
+  a,
+  li {
+    font-size: 3rem;
     padding: 1px;
     margin: 1px;
-    color: black; /* color letras*/
+    color: black;
+    /* color letras*/
   }
-  
+
 
   h2 {
-    font-size: 2.5rem; /*tamaño de subtitulos*/
+    font-size: 2.5rem;
+    /*tamaño de subtitulos*/
   }
 
   /*PARRAFOS*/
   p {
-    font-size: 2rem; /*tamaño textos parrafos*/
-    font-style: italic; /*letra diagonal parrafos*/
+    font-size: 2rem;
+    /*tamaño textos parrafos*/
+    font-style: italic;
+    /*letra diagonal parrafos*/
   }
   .contenedorQuienesSomos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items:center;
+    margin: 2px;
+    padding: 2px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
   }
 
   /*QUIENES SOMOS*/
+  @keyframes aparecer {
+    0% {
+      opacity: 0%;
+    }
+  
+    10% {
+      opacity: 10%;
+    }
+  
+    20% {
+      opacity: 20%;
+    }
+  
+    30% {
+      opacity: 30%;
+    }
+  
+    40% {
+      opacity: 40%;
+    }
+  
+    50% {
+      opacity: 50%;
+    }
+  
+    60% {
+      opacity: 60%;
+    }
+  
+    70% {
+      opacity: 70%;
+    }
+  
+    80% {
+      opacity: 80%;
+    }
+  
+    90% {
+      opacity: 90%;
+    }
+  
+    100% {
+      opacity: 100%;
+    }
+  }
   .quienesSomos {
     margin: 10px;
     padding: 20px;
@@ -95,11 +138,55 @@ html {
 
   /*QUE HACEMOS*/
   .contenedorQueHacemos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0%;
+    }
+
+    10% {
+      opacity: 10%;
+    }
+
+    20% {
+      opacity: 20%;
+    }
+
+    30% {
+      opacity: 30%;
+    }
+
+    40% {
+      opacity: 40%;
+    }
+
+    50% {
+      opacity: 50%;
+    }
+
+    60% {
+      opacity: 60%;
+    }
+
+    70% {
+      opacity: 70%;
+    }
+
+    80% {
+      opacity: 80%;
+    }
+
+    90% {
+      opacity: 90%;
+    }
+
+    100% {
+      opacity: 100%;
+    }
   }
   .queHacemos {
     margin: 10px;
@@ -118,12 +205,57 @@ html {
 
   /*DONDE ENCONTRARNOS*/
   .contenedorDondeEncontrarnos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    align-items: center;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
   }
+  @keyframes aparecer {
+    0% {
+      opacity: 0%;
+    }
+
+    10% {
+      opacity: 10%;
+    }
+
+    20% {
+      opacity: 20%;
+    }
+
+    30% {
+      opacity: 30%;
+    }
+
+    40% {
+      opacity: 40%;
+    }
+
+    50% {
+      opacity: 50%;
+    }
+
+    60% {
+      opacity: 60%;
+    }
+
+    70% {
+      opacity: 70%;
+    }
+
+    80% {
+      opacity: 80%;
+    }
+
+    90% {
+      opacity: 90%;
+    }
+
+    100% {
+      opacity: 100%;
+    }
+  }
+
   .dondeEncontrarnos {
     margin: 10px;
     padding: 0px 90px;
@@ -135,13 +267,11 @@ html {
   }
 
   /*FOOTER*/
-  .contenedorFooter{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:flex-end;
-  }
+  .contenedorFooter {}
 
-  .footer, article, a {
+  .footer,
+  article,
+  a {
     margin: 1px;
     padding: 2px;
     font-size: 2rem;
@@ -154,9 +284,6 @@ html {
     margin: 5px;
     width: 100%;
     text-align: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
   }
 
   .contenedorTablaPiedras th {
@@ -167,7 +294,8 @@ html {
     font-size: 2rem;
   }
 
-  .contenedorTablaPiedras th,td {
+  .contenedorTablaPiedras th,
+  td {
     border: solid 0px black;
     padding: 0px;
   }
@@ -177,7 +305,7 @@ html {
     border: solid 2px black;
     color: black;
   }
-  
+
 
   /*MODELOS*/
   /*TABLAS MODELOS*/
@@ -216,6 +344,7 @@ html {
   h2 {
     left: -10px;
   }
+
   /*video*/
   .video {
     width: 100%;
@@ -252,6 +381,7 @@ html {
     border: solid 2px black;
     color: black;
   }
+
   .pasos {
     position: absolute;
     left: 580px;
@@ -292,10 +422,12 @@ html {
 
 /*media queries DESKTOP*/
 @media screen and (min-width: 1024PX) {
+
   /*BODY PARA TODAS LAS PAGINAS*/
   .body {
-    background-image: linear-gradient(to top,lightpink,white,lightpink);
+    background-image: linear-gradient(to top, lightpink, white, lightpink);
   }
+
   /*.contenedor {
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
@@ -328,10 +460,7 @@ html {
   }*/
 
   /*HEADER*/
-  .logo {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  .logo {}
 
   .headerLogo {
     padding: 10px 10px;
@@ -345,90 +474,97 @@ html {
     margin: 10px 0px 10px 0px;
     font-size: 7rem;
     text-decoration: underline overline;
+    position: relative;
   }
 
-  /*INDEX*/ /*MAIN PAGINA HOME*/
+  /*INDEX*/
+  /*MAIN PAGINA HOME*/
   .tituloprincipal {
     font-size: 30px;
     padding: 5px 5px;
     margin: 5px 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
   }
+
   .navegacion,
   ul,
   li {
-    /*NAVEGACION*/ /*DECORACION NAVEGACION*/
+    /*NAVEGACION*/
+    /*DECORACION NAVEGACION*/
     font-size: 30px;
     padding: 5px 5px;
     margin: 5px 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
   }
+
   /*LETRAS NAVEGACION*/
   a {
-    color: black; /* color letras*/
+    color: black;
+    /* color letras*/
   }
 
   h2 {
-    font-size: 2.5rem; /*tamaño de subtitulos*/
+    font-size: 2.5rem;
+    /*tamaño de subtitulos*/
   }
 
   /*PARRAFOS*/
   p {
-    font-size: 2rem; /*tamaño textos parrafos*/
-    font-style: italic; /*letra diagonal parrafos*/
+    font-size: 2rem;
+    /*tamaño textos parrafos*/
+    font-style: italic;
+    /*letra diagonal parrafos*/
   }
-  .contenedorQuienesSomos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-  }
+
+  .contenedorQuienesSomos {}
 
   /*QUIENES SOMOS*/
   @keyframes aparecer {
-    0%{
+    0% {
       opacity: 0%;
     }
-    10%{
+
+    10% {
       opacity: 10%;
     }
-    20%{
+
+    20% {
       opacity: 20%;
     }
-    30%{
+
+    30% {
       opacity: 30%;
     }
-    40%{
+
+    40% {
       opacity: 40%;
     }
-    50%{
+
+    50% {
       opacity: 50%;
     }
-    60%{
+
+    60% {
       opacity: 60%;
     }
-    70%{
+
+    70% {
       opacity: 70%;
     }
-    80%{
+
+    80% {
       opacity: 80%;
     }
-    90%{
+
+    90% {
       opacity: 90%;
     }
-    100%{
+
+    100% {
       opacity: 100%;
+    }
   }
-}
+
   .quienesSomos {
     margin: 10px;
     padding: 20px;
@@ -436,7 +572,7 @@ html {
     animation-name: aparecer;
     animation-duration: 3s;
     animation-timing-function: linear;
-    animation-iteration-count:initial;
+    animation-iteration-count: initial;
   }
 
   .quienesSomos h2 {
@@ -450,51 +586,59 @@ html {
 
   /*QUE HACEMOS*/
   @keyframes aparecer {
-    0%{
+    0% {
       opacity: 0%;
     }
-    10%{
+
+    10% {
       opacity: 10%;
     }
-    20%{
+
+    20% {
       opacity: 20%;
     }
-    30%{
+
+    30% {
       opacity: 30%;
     }
-    40%{
+
+    40% {
       opacity: 40%;
     }
-    50%{
+
+    50% {
       opacity: 50%;
     }
-    60%{
+
+    60% {
       opacity: 60%;
     }
-    70%{
+
+    70% {
       opacity: 70%;
     }
-    80%{
+
+    80% {
       opacity: 80%;
     }
-    90%{
+
+    90% {
       opacity: 90%;
     }
-    100%{
+
+    100% {
       opacity: 100%;
+    }
   }
-}
+
   .contenedorQueHacemos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
+
     animation-name: aparecer;
     animation-duration: 3s;
     animation-timing-function: linear;
-    animation-iteration-count:initial;
+    animation-iteration-count: initial;
   }
+
   .queHacemos {
     margin: 10px;
     text-align: center;
@@ -512,51 +656,57 @@ html {
 
   /*DONDE ENCONTRARNOS*/
   @keyframes aparecer {
-    0%{
+    0% {
       opacity: 0%;
     }
-    10%{
+
+    10% {
       opacity: 10%;
     }
-    20%{
+
+    20% {
       opacity: 20%;
     }
-    30%{
+
+    30% {
       opacity: 30%;
     }
-    40%{
+
+    40% {
       opacity: 40%;
     }
-    50%{
+
+    50% {
       opacity: 50%;
     }
-    60%{
+
+    60% {
       opacity: 60%;
     }
-    70%{
+
+    70% {
       opacity: 70%;
     }
-    80%{
+
+    80% {
       opacity: 80%;
     }
-    90%{
+
+    90% {
       opacity: 90%;
     }
-    100%{
+
+    100% {
       opacity: 100%;
+    }
   }
-}
   .contenedorDondeEncontrarnos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items:baseline;
     animation-name: aparecer;
     animation-duration: 3s;
     animation-timing-function: linear;
-    animation-iteration-count:initial;
+    animation-iteration-count: initial;
   }
+
   .dondeEncontrarnos {
     margin: 10px;
     padding: 20px;
@@ -568,12 +718,7 @@ html {
   }
 
   /*FOOTER*/
-  .footer {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  .footer {}
 
   .footer,
   article {
@@ -584,52 +729,60 @@ html {
 
   /*TABLA PIEDRAS*/
   @keyframes aparecerTabla {
-    0%{
+    0% {
       opacity: 0%;
     }
-    10%{
+
+    10% {
       opacity: 10%;
     }
-    20%{
+
+    20% {
       opacity: 20%;
     }
-    30%{
+
+    30% {
       opacity: 30%;
     }
-    40%{
+
+    40% {
       opacity: 40%;
     }
-    50%{
+
+    50% {
       opacity: 50%;
     }
-    60%{
+
+    60% {
       opacity: 60%;
     }
-    70%{
+
+    70% {
       opacity: 70%;
     }
-    80%{
+
+    80% {
       opacity: 80%;
     }
-    90%{
+
+    90% {
       opacity: 90%;
     }
-    100%{
+
+    100% {
       opacity: 100%;
+    }
   }
-}
+
   .contenedorTablaPiedras {
     padding: 10px;
     margin: 5px;
     width: 100%;
     text-align: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     animation-name: aparecerTabla;
     animation-duration: 3s;
     animation-timing-function: linear;
-    animation-iteration-count:initial;
+    animation-iteration-count: initial;
   }
 
   .contenedorTablaPiedras th {
@@ -638,15 +791,17 @@ html {
 
   .contenedorTablaPiedras td {
     font-size: 3rem;
-  
+
   }
-  .contenedorTablaPiedras img{
+
+  .contenedorTablaPiedras img {
     transform: scaleX(1.3);
     width: 80%;
     height: 150px;
-    transition:height 2s;
+    transition: height 2s;
   }
-  .contenedorTablaPiedras img:hover{
+
+  .contenedorTablaPiedras img:hover {
     height: 200px;
   }
 
@@ -699,6 +854,7 @@ html {
   h2 {
     left: -10px;
   }
+
   /*video*/
   .video {
     width: 100%;
@@ -735,6 +891,7 @@ html {
     border: solid 2px black;
     color: black;
   }
+
   .pasos {
     position: absolute;
     left: 580px;
