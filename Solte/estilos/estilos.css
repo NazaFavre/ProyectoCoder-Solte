@@ -19,7 +19,7 @@ html {
   /*HEADER*/
   .logo {
     position: relative;
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
@@ -465,12 +465,13 @@ html {
 
   /*CONTACTO*/
   /*FORMULARIO*/
-  .contenedorFormulario{
+  .contenedorFormulario {
     position: relative;
     margin: 15px;
     font-size: 2rem;
     text-align: center;
   }
+
   .tituloFormulario,
   h2 {
     margin: 15px;
@@ -481,7 +482,7 @@ html {
 
 
 /*media queries DESKTOP*/
-@media screen and (max-width: 1440PX) {
+@media screen and (max-width: 1650PX) {
 
   /*BODY PARA TODAS LAS PAGINAS*/
   .body {
@@ -521,27 +522,19 @@ html {
 
   /*HEADER*/
   .logo {
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
   }
 
   .headerLogo {
     padding: 10px 10px;
-    margin: 1px 1px 1px 1px;
+    margin: 10px 0px 5px 0px;
     background-color: black;
   }
 
   /*TITULO DE PAGINA*/
-  h1 {
-    padding: 1px 1px 1px 1px;
-    margin: 10px 0px 10px 0px;
-    font-size: 7rem;
-    text-decoration: underline overline;
-    position: relative;
-  }
 
   /*INDEX*/
   /*MAIN PAGINA HOME*/
@@ -549,29 +542,47 @@ html {
     font-size: 30px;
     padding: 5px 5px;
     margin: 5px 5px;
-    text-align: center ;
+  }
+
+  h1 {
+    padding: 50px 10px 1px 1px;
+    margin: 10px 0px 10px 0px;
+    font-size: 10rem;
+    text-decoration: underline overline;
+    position: relative;
+    text-align: center;
   }
 
   .navegacion,
-  ul,
-  li {
+  ul {
     /*NAVEGACION*/
     /*DECORACION NAVEGACION*/
-    font-size: 30px;
+    font-size: 4rem;
     padding: 5px 5px;
     margin: 5px 5px;
+  }
+
+  .navegacion li {
     display: inline;
-    position: relative;
+  }
+
+  .navegacion,
+  a {
+    text-align: center;
   }
 
   /*LETRAS NAVEGACION*/
   a {
+    position: relative;
+    text-align: center;
     color: black;
     /* color letras*/
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
     /*tamaño de subtitulos*/
   }
 
@@ -644,11 +655,10 @@ html {
   }
 
   .quienesSomos h2 {
-    left: -10px;
+    text-align: center;
   }
 
   .quienesSomos p {
-    width: 500px;
     height: 100px;
   }
 
@@ -708,16 +718,11 @@ html {
 
   .queHacemos {
     margin: 10px;
-    text-align: center;
     padding: 20px;
-  }
-
-  .queHacemos h2 {
-    left: -10px;
+    text-align: center;
   }
 
   .queHacemos p {
-    width: 500px;
     height: 100px;
   }
 
@@ -786,9 +791,11 @@ html {
   }
 
   /*FOOTER*/
-  .footer {
+  .footer,div {
     margin: 1px;
     padding: 2px;
+    
+    
   }
 
   .footer,
@@ -796,7 +803,15 @@ html {
     margin: 1px;
     padding: 5px;
     font-size: 2rem;
+    text-align: center;
   }
+
+  .footer,
+  a {
+    text-align: center;
+    
+  }
+
 
   /*TABLA PIEDRAS*/
   @keyframes aparecerTabla {
@@ -846,9 +861,9 @@ html {
   }
 
   .contenedorTablaPiedras {
-    padding: 10px;
-    margin: 5px;
-    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    width: 95%;
     text-align: center;
     animation-name: aparecerTabla;
     animation-duration: 3s;
@@ -985,12 +1000,13 @@ html {
 
   /*CONTACTO*/
   /*FORMULARIO*/
-  .contenedorFormulario{
+  .contenedorFormulario {
     position: relative;
     margin: 15px;
     font-size: 2rem;
     text-align: center;
   }
+
   .tituloFormulario,
   h2 {
     margin: 15px;
