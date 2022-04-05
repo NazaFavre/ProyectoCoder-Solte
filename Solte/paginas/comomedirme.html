@@ -13,48 +13,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class="body">
+<body class="body container-fluid">
     <!--Encabezado-->
-    <header class="logo">
+    <header class="logo col-md-12 ">
         <!--Icono de la marca-->
         <img src="../imagenes/logo solte 2.jpg" alt="" class="headerLogo">
         <hr>
     </header>
     <!--Contenido principal-->
-    <main class="contenedor">
+    <main class="main container-fluid">
         <!--Meunu de navegacion-->
-        <nav class="navegacion">
-            <ul>
-                <li> <a href="../index.html">Home</a> </li>
-                <li> <a href="../paginas/piedras.html">Piedras</a> </li>
-                <li> <a href="../paginas/modelos.html">Modelos</a> </li>
-                <li> <a href="../paginas/comomedirme.html">Como medirme</a> </li>
-                <li> <a href="../paginas/contacto.html">Contacto</a> </li>
+        <div class="row">
+            <nav class="contenedorNavegacion col-md-12">
+                <ul class="navegacion">
+                    <li> <a href="../index.html">Home</a> </li>
+                    <li> <a href="../paginas/piedras.html">Piedras</a> </li>
+                    <li> <a href="../paginas/modelos.html">Modelos</a> </li>
+                    <li> <a href="../paginas/comomedirme.html">Como medirme</a> </li>
+                    <li> <a href="../paginas/contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Nombre de la pag-->
+        <div class="contenedorTituloPrincipal row">
+            <ul class="tituloPrincipal col-md-12">
+                <h1 class="animate_animated animate_backInDown">Como medirme</h1>
             </ul>
-        </nav>
-        <nav class="tituloprincipal">
-            <!--Nombre de la pag-->
-            <h1 class="animate_animated animate_backInDown">Como medirme</h1>
-        </nav>
+        </div>
+        <div class="row">
+                <h3 class="pasoApaso col-md-12">Paso a paso</h3>
+                <ol class="parrafoTalles">
+                    <li>Buscar una regla, bolígrafo o rotulador y una cuerda que se pueda marcar.</li>
+                    <li>colocaremos la cuerda alrededor de la muñeca, en la parte exacta donde solemos llevar las
+                        pulseras o relojes. Donde se une la cuerda con el otro extremo haremos una marca.</li>
+                    <li>Por ultimo con la ayuda de la regla, mediremos el trozo de cuerda desde el extremo hasta la
+                        marca hecha con el rotulador.</li>
+                </ol>
+        </div>
         <!--secciones-->
-        <section>
-            <article>
+        <div class="row">
+            <nav class="col-sm-12 col-md-6">
                 <h2 class="subtituloVideo">Video explicativo</h2>
                 <!--Video explicastivo-->
-                <div class="video">
-                    <h5><a href="https://youtube.com/shorts/OCZfJZ9_nIo?feature=share">Youtube</a></h5>
+                    <h5><a href="https://youtube.com/shorts/OCZfJZ9_nIo?feature=share"></a></h5>
                     <iframe width="394" height="701" src="https://www.youtube.com/embed/OCZfJZ9_nIo"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </article>
-        </section>
-        <br>
-        <section>
-            <article>
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </nav>
+            <nav class="col-sm-12 col-md-6">
                 <!--tabla talles-->
-                <table border="0" cellpadding="0px" cellspacing="0px" class="tablaTalles">
+                <h2 class="subtituloVideo">Tabla de talles</h2>
+                <table border="0" cellpadding="0px" cellspacing="0px" class="tablaTalles" >
                     <th>Talle</th>
                     <th>Medidas(en cm)</th>
                     <tr>
@@ -70,25 +80,15 @@
                         <td>12cm y 13cm</td>
                     </tr>
                 </table>
-            </article>
-            <article class="pasos">
-                <h3 class="pasoApaso">Paso a paso</h3>
-                <ol class="parrafoTalles">
-                    <li>Buscar una regla, bolígrafo o rotulador y una cuerda que se pueda marcar.</li>
-                    <li>colocaremos la cuerda alrededor de la muñeca, en la parte exacta donde solemos llevar las
-                        pulseras o relojes. Donde se une la cuerda con el otro extremo haremos una marca.</li>
-                    <li>Por ultimo con la ayuda de la regla, mediremos el trozo de cuerda desde el extremo hasta la
-                        marca hecha con el rotulador.</li>
-                </ol>
-            </article>
-        </section>
+            </nav>
+        </div>
     </main>
     <!--pie de pagina-->
-    <footer>
-        <section>
+    <footer class="footer row">
+        <div class="contenedorFooter col-md-12">
             <article><a href="https://www.instagram.com/solte.accesorios/">Instagram</a></article>
             <article><a href="https://www.facebook.com/solteaccesorios">Facebook</a></article>
-        </section>
+        </div>
     </footer>
 </body>
 

@@ -13,34 +13,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class="body">
+<body class="body container-fluid">
     <!--Encabezado-->
-    <header class="logo">
+    <header class="logo col-md-12 ">
         <!--Icono de la marca-->
         <img src="../imagenes/logo solte 2.jpg" alt="" class="headerLogo">
         <hr>
     </header>
     <!--Contenido principal-->
-    <main class="contenedor">
+    <main class="main container-fluid">
         <!--Meunu de navegacion-->
-        <nav class="navegacion">
-            <ul>
-                <li> <a href="../index.html">Home</a> </li>
-                <li> <a href="../paginas/piedras.html">Piedras</a> </li>
-                <li> <a href="../paginas/modelos.html">Modelos</a> </li>
-                <li> <a href="../paginas/comomedirme.html">Como medirme</a> </li>
-                <li> <a href="../paginas/contacto.html">Contacto</a> </li>
+        <div class="row">
+            <nav class="contenedorNavegacion col-md-12">
+                <ul class="navegacion">
+                    <li> <a href="../index.html">Home</a> </li>
+                    <li> <a href="../paginas/piedras.html">Piedras</a> </li>
+                    <li> <a href="../paginas/modelos.html">Modelos</a> </li>
+                    <li> <a href="../paginas/comomedirme.html">Como medirme</a> </li>
+                    <li> <a href="../paginas/contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Nombre de la pag-->
+        <div class="contenedorTituloPrincipal row">
+            <ul class="tituloPrincipal col-md-12">
+                <h1 class="animate_animated animate_backInDown">Contacto</h1>
             </ul>
-        </nav>
-        <nav class="tituloprincipal">
-            <!--Nombre de la pag-->
-            <h1 class="animate_animated animate_backInDown">Contacto</h1>
-        </nav>
+        </div>
         </nav>
         <!--secciones-->
-        <section>
-            <h2 class="totiloFormuilario">Formulario de contacto</h2>
-            <div class="formulario">
+        <div class="row"> 
+            <h2 class="totiloFormuilario col-md-12">Formulario de contacto</h2>
+            <nav class="formulario col-md-12">
                 <form class="contenedorFormulario">
                     <label for="nombre">Ingrese su nombre: </label>
                     <input type="text" placeholder="Ingrese su nombre" value="nombre" name="nombre">
@@ -66,7 +70,7 @@
                     <input type="reset" value="Resetear formulario">
                 </form>
             </div>
-        </section>
+        </div>
     </main>
     <!--pie de pagina-->
     <footer>
