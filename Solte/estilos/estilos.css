@@ -533,10 +533,7 @@ html {
     background-color: black;
   }
 
-  /*TITULO DE PAGINA*/
-
-  /*INDEX*/
-  /*MAIN PAGINA HOME*/
+  /*TITULO DE PAGINA, INDEX,MAIN PAGINA HOME */
   .tituloprincipal {
     font-size: 30px;
     padding: 5px 5px;
@@ -973,11 +970,7 @@ html {
     color: black;
     width: 50%;
   }
-
-  .pasos {
-    
-  }
-
+  
   .pasoApaso {
     margin: 1px;
     text-align: left;
