@@ -1,0 +1,253 @@
+/*BODY PARA TODAS LAS PAGINAS*/
+.body {
+    background-image: linear-gradient(to top, lightpink, white, lightpink);
+}
+/*LOGO*/
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .headerLogo {
+        padding: 10px 10px;
+        margin: 10px 0px 5px 0px;
+        background-color: black;
+    }
+}
+/*TITULO DE PAGINA, INDEX,MAIN PAGINA HOME */
+.tituloprincipal {
+    font-size: 30px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    h1 {
+        padding: 50px 10px 1px 1px;
+        margin: 10px 0px 10px 0px;
+        font-size: 10rem;
+        text-decoration: underline overline;
+        position: relative;
+        text-align: center;
+    }
+}
+/*NAVEGACION*/
+.navegacion{
+    ul {/*DECORACION NAVEGACION*/
+    /*NAVEGACION*/
+    /*DECORACION NAVEGACION*/
+    font-size: 4rem;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    }
+        li {
+            display: inline;
+        } 
+            a {/*COLOR LETRAS*/
+                text-align: center;
+                position: relative;
+                text-align: center;
+                color: black;
+            }
+}
+/*TAMAÑO DE SUBTITULOS*/
+h2 {
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+}
+/*PARRAFOS*/
+p {
+    font-size: 2rem;
+    font-style: italic;
+}
+/*APARTADO QUIENES SOMOS*/
+.contenedorQuienesSomos {
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    .quienesSomos {
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+        h2 {
+            text-align: center;
+        }
+            p {
+                height: 100px;
+            }
+    &:hover{/*EFECTO PARA EL CONTENEDOR*/
+                @keyframes aparecer {
+                    0% {
+                      opacity: 0%;
+                    }
+                
+                    10% {
+                      opacity: 10%;
+                    }
+                
+                    20% {
+                      opacity: 20%;
+                    }
+                
+                    30% {
+                      opacity: 30%;
+                    }
+                
+                    40% {
+                      opacity: 40%;
+                    }
+                
+                    50% {
+                      opacity: 50%;
+                    }
+                
+                    60% {
+                      opacity: 60%;
+                    }
+                
+                    70% {
+                      opacity: 70%;
+                    }
+                
+                    80% {
+                      opacity: 80%;
+                    }
+                
+                    90% {
+                      opacity: 90%;
+                    }
+                
+                    100% {
+                      opacity: 100%;
+                    }
+                }
+    }         
+}
+/*APARTADO QUE HACEMOS*/
+.contenedorQueHacemos {
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    .queHacemos {
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+    }   
+        h2  {
+        text-align: center;
+        }   
+            p {
+                height: 100px;
+            }
+    &:hover{/*EFECTO PARA EL CONTENEDOR*/
+        @keyframes aparecer {
+            0% {
+              opacity: 0%;
+            }
+        
+            10% {
+              opacity: 10%;
+            }
+        
+            20% {
+              opacity: 20%;
+            }
+        
+            30% {
+              opacity: 30%;
+            }
+        
+            40% {
+              opacity: 40%;
+            }
+        
+            50% {
+              opacity: 50%;
+            }
+        
+            60% {
+              opacity: 60%;
+            }
+        
+            70% {
+              opacity: 70%;
+            }
+        
+            80% {
+              opacity: 80%;
+            }
+        
+            90% {
+              opacity: 90%;
+            }
+        
+            100% {
+              opacity: 100%;
+            }
+        }
+    }
+}
+/*APARTADO DONDE ENCONTRARNOS*/
+.contenedorDondeEncontrarnos {
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    .dondeEncontrarnos {
+        margin: 10px;
+        padding: 20px;
+    }
+        h2  {
+        text-align: center;
+        }
+    &:hover{/*EFECTO PARA EL CONTENEDOR*/
+        @keyframes aparecer {
+                0% {
+                  opacity: 0%;
+                }
+            
+                10% {
+                  opacity: 10%;
+                }
+            
+                20% {
+                  opacity: 20%;
+                }
+            
+                30% {
+                  opacity: 30%;
+                }
+            
+                40% {
+                  opacity: 40%;
+                }
+            
+                50% {
+                  opacity: 50%;
+                }
+            
+                60% {
+                  opacity: 60%;
+                }
+            
+                70% {
+                  opacity: 70%;
+                }
+            
+                80% {
+                  opacity: 80%;
+                }
+            
+                90% {
+                  opacity: 90%;
+                }
+            
+                100% {
+                  opacity: 100%;
+                }
+        }
+    }
+}
+/*FOOTER*/
+@import "footer";
