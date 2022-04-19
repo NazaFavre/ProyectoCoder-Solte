@@ -2,6 +2,8 @@
 <html lang="es">
 
 <head>
+    <link rel="stylesheet" href="estilos/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class="body">
+<body class="body container-fluid">
     <!--Encabezado-->
-    <header class="logo">
+    <header class="logo col-md-12 ">
         <!--Icono de la marca-->
         <img src="imagenes/logo solte 2.jpg" alt="logo de mi empresa" title="logo de mi empresa" class="headerLogo">
         <hr>
@@ -21,15 +23,17 @@
     <!--Contenido principal-->
     <main class="contenedor">
         <!--Meunu de navegacion-->
-        <nav class="navegacion">
-            <ul>
-                <li> <a href="./index.html">Home</a> </li>
-                <li> <a href="./paginas/piedras.html">Piedras</a> </li>
-                <li> <a href="./paginas/modelos.html">Modelos</a> </li>
-                <li> <a href="./paginas/comomedirme.html">Como medirme</a>
-                <li> <a href="./paginas/contacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
+        <div class="row">
+            <nav class="contenedorNavegacion col-md-12">
+                <ul class="navegacion">
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="./paginas/piedras.html">Piedras</a> </li>
+                    <li> <a href="./paginas/modelos.html">Modelos</a> </li>
+                    <li> <a href="./paginas/comomedirme.html">Como medirme</a>
+                    <li> <a href="./paginas/contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
         <nav class="tituloprincipal">
             <!--Nombre de la pag-->
             <h1 class="animate_animated animate_backInDown">Home</h1>
