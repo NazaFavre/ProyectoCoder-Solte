@@ -1,0 +1,50 @@
+.contenedorVideo{
+    .subtituloVideo {
+        text-align: start;
+    }
+        .video {
+            width: 60%;
+            padding: 1px;
+            margin: 5px;
+        }
+}
+.subtituloTablaTalle {
+    text-align: start;
+}
+.contenedorTablaTalle{
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    th {
+        font-size: 2.5rem;
+        border: solid 0.5px black;
+        padding: 5px;
+        background-color: aliceblue;
+        border: solid 2px black;
+        color: black;
+        width: 50%;
+    }
+        td {
+            font-size: 3rem;
+            border: solid 0.5px black;
+            padding: 5px;
+        }
+}
+.contenedorParrafoTalle{
+    margin: 2px;
+    margin: 1px;
+        .pasoApaso {
+            margin: 1px;
+            text-align: left;
+            padding: 30px;
+            font-size: 3rem;
+        }
+            .parrafoTalles {
+                font-size: 2rem;
+                padding: 50px;
+                position: relative;
+                bottom: 60px;
+            }
+}

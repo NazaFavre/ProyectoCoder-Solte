@@ -190,3 +190,169 @@ footer article {
 
 footer a {
   text-align: center; }
+
+/*PIEDRAS*/
+.contenedorTablaPiedras {
+  padding: 10px 10px;
+  margin: 5px 10px;
+  width: 95%;
+  text-align: center;
+  animation-name: aparecerTabla;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: initial; }
+  .contenedorTablaPiedras th {
+    font-size: 2.5rem;
+    border: solid 0px black;
+    padding: 5px;
+    background-color: aliceblue;
+    border: solid 2px black;
+    color: black; }
+  .contenedorTablaPiedras td {
+    font-size: 3rem;
+    border: solid 0px black;
+    padding: 5px; }
+  .contenedorTablaPiedras img {
+    transform: scaleX(1.3);
+    width: 80%;
+    height: 150px;
+    transition: height 2s; }
+  .contenedorTablaPiedras img:hover {
+    height: 200px; }
+  .contenedorTablaPiedras:hover {
+    /*EFECTO PARA EL CONTENEDOR*/ }
+
+@keyframes aparecerTabla {
+  0% {
+    opacity: 0%; }
+  10% {
+    opacity: 10%; }
+  20% {
+    opacity: 20%; }
+  30% {
+    opacity: 30%; }
+  40% {
+    opacity: 40%; }
+  50% {
+    opacity: 50%; }
+  60% {
+    opacity: 60%; }
+  70% {
+    opacity: 70%; }
+  80% {
+    opacity: 80%; }
+  90% {
+    opacity: 90%; }
+  100% {
+    opacity: 100%; } }
+
+/*MODELOS*/
+.contenedorTablaModelos {
+  padding: 10px 10px;
+  margin: 5px 10px;
+  width: 95%;
+  text-align: center;
+  animation-name: aparecerTabla;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: initial; }
+  .contenedorTablaModelos th {
+    font-size: 2.5rem;
+    border: solid 0px black;
+    padding: 5px;
+    background-color: aliceblue;
+    border: solid 2px black;
+    color: black; }
+  .contenedorTablaModelos td {
+    font-size: 3rem;
+    border: solid 0px black;
+    padding: 5px; }
+  .contenedorTablaModelos img {
+    transform: scaleX(1.3);
+    width: 80%;
+    height: 150px;
+    transition: height 2s; }
+  .contenedorTablaModelos img:hover {
+    height: 200px; }
+  .contenedorTablaModelos:hover {
+    /*EFECTO PARA EL CONTENEDOR*/ }
+
+@keyframes aparecerTabla {
+  0% {
+    opacity: 0%; }
+  10% {
+    opacity: 10%; }
+  20% {
+    opacity: 20%; }
+  30% {
+    opacity: 30%; }
+  40% {
+    opacity: 40%; }
+  50% {
+    opacity: 50%; }
+  60% {
+    opacity: 60%; }
+  70% {
+    opacity: 70%; }
+  80% {
+    opacity: 80%; }
+  90% {
+    opacity: 90%; }
+  100% {
+    opacity: 100%; } }
+
+/*COMO MEDIRME*/
+.contenedorVideo .subtituloVideo {
+  text-align: start; }
+
+.contenedorVideo .video {
+  width: 60%;
+  padding: 1px;
+  margin: 5px; }
+
+.subtituloTablaTalle {
+  text-align: start; }
+
+.contenedorTablaTalle {
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  width: 80%; }
+  .contenedorTablaTalle th {
+    font-size: 2.5rem;
+    border: solid 0.5px black;
+    padding: 5px;
+    background-color: aliceblue;
+    border: solid 2px black;
+    color: black;
+    width: 50%; }
+  .contenedorTablaTalle td {
+    font-size: 3rem;
+    border: solid 0.5px black;
+    padding: 5px; }
+
+.contenedorParrafoTalle {
+  margin: 2px;
+  margin: 1px; }
+  .contenedorParrafoTalle .pasoApaso {
+    margin: 1px;
+    text-align: left;
+    padding: 30px;
+    font-size: 3rem; }
+  .contenedorParrafoTalle .parrafoTalles {
+    font-size: 2rem;
+    padding: 50px;
+    position: relative;
+    bottom: 60px; }
+
+/*CONTACTO*/
+.contenedorFormulario {
+  position: relative;
+  margin: 15px;
+  font-size: 2rem;
+  text-align: center; }
+  .contenedorFormulario .tituloFormulario {
+    margin: 15px;
+    position: relative;
+    text-align: center; }
